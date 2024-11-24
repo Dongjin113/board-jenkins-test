@@ -1,0 +1,29 @@
+= Some-Where Project API 문서
+:toc: left
+:source-highlighter: highlightjs
+:sectlinks:
+
+== Camping
+=== 지역별 캠핑장 조회
+지역을 통해 캠핑장을 검색해옵니다.
+
+include::{snippets}/camping-preview/path-parameters.adoc[]
+include::{snippets}/camping-preview/response-fields.adoc[]
+include::{snippets}/camping-preview/response-body.adoc[]
+
+=== 지역별 캠핑장 수 조회
+지역별 캠핑장 수를 검색해옵니다.
+
+URL 요청 주소: `GET /api/camping/region/counts`
+
+include::{snippets}/camping-region-counts/response-fields.adoc[]
+include::{snippets}/camping-region-counts/response-body.adoc[]
+
+=== 위도 경도 범위내의 캠핑장 조회
+지역별 캠핑장 수를 검색해옵니다.
+
+URL 요청 주소: `GET /api/camping/location?northLng=200&southLng=0&eastLat=200&westLat=0`
+
+include::{snippets}/camping-location-preview/query-parameters.adoc[]
+include::{snippets}/camping-location-preview/response-fields.adoc[]
+include::{snippets}/camping-location-preview/response-body.adoc[]

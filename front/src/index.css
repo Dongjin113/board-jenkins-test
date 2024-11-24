@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Jua&display=swap');
+
+
+nav{
+  font-family: "Jua", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Jua", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5em;
+  margin: 0;
+  background-color: #F4F4F4;
+}
+
+button {
+  font-family: "Jua", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
